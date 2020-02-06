@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="漫威電影宇宙隨機名言產生器" />
+    <meta property="og:description" content="先將所有的牌面朝下，可以翻開任何的牌，並找到另一張一樣的牌，二張一樣的牌為一組才算配對成功，如果沒有獲得配對，就把牌蓋回去，要用腦子去記住每張被翻過的卡牌分別是什麼圖案。" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/quote-generator.css">
+    <title>漫威電影宇宙隨機名言產生器</title>
+</head>
+<body>
+    <div class="container" id="splash">
+        <img id="logo" src="images/logo.png">
+        <h1>漫威電影宇宙隨機名言產生器</h1>
+        <p id="information">漫威電影自從 2008 年 5 月上映《鋼鐵人》後，已經陸續出了多達 20 部漫威英雄電影和 11 部漫威英雄影集，形成一個龐大的漫威電影宇宙，每一部新的作品上映就是更加豐富這個宇宙觀，從而故事的銜接以及時間的順序發展非常重要。</p>
+    </div>
+    <div class="container card card-body bg-light" id="space">
+        <h5 id="quote"></h5>
+        <h5 id="person"></h5>
+    </div>
+    <div class="container" id="generator">
+        <a class="btn btn-danger btn-lg" id="button" href="#">產生名言</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" defer></script>
+    <script src="js/quote-generator.js" defer></script>
+</body>
+</html>
